@@ -1,4 +1,4 @@
-const cartas = document.querySelector('.cartas-memoria');
+const cartas = document.querySelector('.cartasMemoria');
 
 let virada = false;
 let primeira, segunda;
@@ -31,3 +31,18 @@ function desabilitar() {
     segunda.removeEventLinstener('click', virar);
 }
 
+function desvirar() {
+    setTimeout(() => {
+        primeira.classList.remove('virar');
+        segunda.classList.remove('virar');
+    }, 1500);
+}
+
+(function embaralhar() {
+    cartas.forEach(carta => {
+        let aleatório = Math.floor(Math.round () * 6);
+        carta.style.order = aleatório;
+    });
+})();
+
+cartas.forEach(carta => carta.addEventListene('click', virar));
