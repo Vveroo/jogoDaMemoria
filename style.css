@@ -1,4 +1,5 @@
 body {
+    
     background-image: linear-gradient(to right, #ff6600, #f34b4b);
     font-family: sans-serif;
     display: flex;
@@ -10,7 +11,9 @@ body {
 }
 
 h1 {
+
 .container {
+
     text-shadow: 15px 10px 30px rgba(0, 0, 0, 0.997);
     height: 150px;
     font-size: 50px;
