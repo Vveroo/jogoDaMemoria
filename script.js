@@ -1,5 +1,6 @@
 const cartas = document.querySelector('.carta');
 const cartas = document.querySelector('.cartasMemoria');
+    const cartas = document.querySelectorAll('.carta');
 
 let virada = false;
 let primeira, segunda;
@@ -52,6 +53,9 @@ cartas.forEach(carta => carta.addEventListene('click', virar));       const cart
         let virada = false;
         let bloqueio = false; 
         let primeira, segunda;
+    let virada = false;
+    let bloqueio = false; 
+    let primeira, segunda;
 
         function virar() {
             if (bloqueio) return;
