@@ -1,4 +1,5 @@
 const cartas = document.querySelectorAll('.carta');
+ 
 // script.js
 let virada = false;
 let bloqueio = false; 
