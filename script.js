@@ -47,6 +47,7 @@ function desvirar() {
 })();
 
 cartas.forEach(carta => carta.addEventListene('click', virar));       const cartas = document.querySelectorAll('.carta');
+       const cartas = document.querySelectorAll('.carta');
 
         let virada = false;
         let bloqueio = false; 
