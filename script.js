@@ -1,4 +1,5 @@
 const cartas = document.querySelector('.carta');
+const cartas = document.querySelector('.cartasMemoria');
 
 let virada = false;
 let primeira, segunda;
