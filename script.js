@@ -1,8 +1,10 @@
 const cartas = document.querySelector('.carta');
 const cartas = document.querySelector('.cartasMemoria');
     const cartas = document.querySelectorAll('.carta');
+const cartas = document.querySelectorAll('.carta');
 
 let virada = false;
+let bloqueio = false; 
 let primeira, segunda;
 
 function virar() {
