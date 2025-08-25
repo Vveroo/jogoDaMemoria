@@ -1,6 +1,5 @@
 body {
-    
-    background-image: linear-gradient(to right, #ff6600, #f34b4b);
+    background-color: #ff7627;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -10,23 +9,17 @@ body {
     margin: 0;
 }
 
-h1 {
-
 .container {
-
-    text-shadow: 15px 10px 30px rgba(0, 0, 0, 0.997);
+    text-shadow: 15px 10px 30px rgba(0, 0, 0, 0.363);
     height: 150px;
     font-size: 50px;
     font-size: 25px;
     font-family: cursive;
-    color: #333;
     margin-bottom: 20px;
     margin-bottom: 110px;
-    color: #431919;
+    color: #ffffff;
 }
 
-.joguinho {
-    
 .joguinho {    
     width: 600px;
     height: 400px; 
@@ -40,8 +33,6 @@ h1 {
 
 
 .carta {
-
-    
     box-shadow: 15px 10px 30px rgba(107, 14, 14, 0.997);
     position: relative;
     transform-style: preserve-3d;
