@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+
 .container {
     text-shadow: 15px 10px 30px rgba(0, 0, 0, 0.363);
     height: 150px;
@@ -19,13 +20,14 @@ body {
     margin-bottom: 110px;
     color: #ffffff;
 }
-
 .joguinho {    
     width: 600px;
     height: 400px; 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 2fr); 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr); 
     gap: 15px;
     gap: 35px;
     perspective: 1000px; 
