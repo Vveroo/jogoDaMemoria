@@ -29,8 +29,8 @@ body {
     width: 600px;
     height: 400px; 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 2fr); 
     gap: 15px;
     gap: 35px;
     perspective: 1000px; 
@@ -38,8 +38,6 @@ body {
 
 
 .carta {
-
-    
     box-shadow: 15px 10px 30px rgba(107, 14, 14, 0.997);
     position: relative;
     transform-style: preserve-3d;
